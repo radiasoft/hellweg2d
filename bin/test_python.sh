@@ -2,5 +2,5 @@
 
 set -x -e -u -o pipefail
 
-cd /rslinac
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
 python setup.py test
