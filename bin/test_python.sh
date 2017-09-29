@@ -3,4 +3,6 @@
 set -x -e -u -o pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
+ls -aln ~
+id
 py.test
