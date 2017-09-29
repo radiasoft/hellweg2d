@@ -1,3 +1,4 @@
+language: generic
 branches:
   only:
     - integration
@@ -5,6 +6,5 @@ dist: trusty
 sudo: required
 services:
   - docker
-
 script:
   - ./bin/run_tests.sh
