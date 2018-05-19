@@ -7,4 +7,5 @@ ls -aln .
 ls -aln ~
 id
 mkdir /home/vagrant/.cache
+pip install -r requirements.txt
 py.test

@@ -8,6 +8,7 @@ from glob import glob
 from setuptools import Extension
 import os
 import sysconfig
+import pykern
 
 _LIB_DIR = os.path.join('src', 'libHellweg2D')
 
