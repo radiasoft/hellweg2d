@@ -4,13 +4,7 @@
 :copyright: Copyright (c) 2016 RadiaSoft LLC.  All Rights Reserved.
 :license: http://www.apache.org/licenses/LICENSE-2.0.html
 """
-try:
-    from pykern import pksetup
-except ImportError:
-    import pip
-    pip.main(['install', 'pykern'])
-    from pykern import pksetup
-
+from pykern import pksetup
 from glob import glob
 from setuptools import Extension
 import os
